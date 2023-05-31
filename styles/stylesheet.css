@@ -1,0 +1,299 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+html
+{
+    background: url(../images/background.png) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Styling of the navigation bar */
+
+h4
+{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+/* Buttons */
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next-button {
+    margin-top: 20px;
+}
+
+.back-button {
+    margin-right: 10px;
+}
+
+/* Form */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Result */
+#result-container {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #C60000;
+    color: #fff;
+}
+  
+  nav .logo a
+  {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #fff;
+  }
+  
+  nav .search-bar
+  {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav form input[type="text"]
+  {
+    height: 40px;
+    width: 450px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  nav form button
+  {
+    background-color: rgba(27, 27, 27, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  nav .nav-items ul
+  {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav .nav-items li
+  {
+    margin-left: 20px;
+  }
+  
+  nav .nav-items a
+  {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+  }  
+/* Styling of the main section */
+
+main .container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+main .container .box:nth-child(1)
+{
+    width: 650px;
+    height: 350px;
+    border-radius: 2px;
+    background-color: white;
+}
+main .container .box:nth-child(2)
+{
+    width: 500px;
+    height: 350px;
+    border-radius: 2px;
+    background-color: white;
+}
+main .container .box:nth-child(3)
+{
+    width: 1100px;
+    flex-wrap: wrap;
+    min-height: 300px;
+    height: auto;
+    border-radius: 2px;
+    background-color: white;
+}
+main .container .textbox:nth-child(2)
+{
+    padding-top: 100px;
+    padding-left: 35px;
+}
+main .container .textbox:nth-child(2) h2
+{
+    font-weight: bolder;
+    font-size: 45px;
+}
+main .container .textbox:nth-child(2) button
+{
+    background-color: #C60000;
+    width: 125px;
+    height: 42px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+main .container .textbox:nth-child(2) button:hover
+{
+    background-color: #b10202;
+    cursor:pointer;
+}
+main .container .box:nth-child(1) .images
+{
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    gap: 10px;
+}
+main .container .box:nth-child(1) .images img
+{
+
+    height:80px;
+}
+main .container .box:nth-child(1)
+{
+    width: 400px;
+}
+main .container .box:nth-child(1) .textbox
+{
+    margin-right: 10px;
+}
+main .container .box:nth-child(1) h2
+{
+    font-size: 20px;
+}
+
+
+main .container .box:nth-child(2) .textbox h2
+{
+    font-size: 25px;
+}
+main .container .box:nth-child(2) .textbox p
+{
+    font-weight: lighter;
+}
+main .container .box:nth-child(2) .textbox a
+{
+    color: #C60000;
+}
+main .container .box:nth-child(2) .textbox a:hover
+{
+    color: #b10202;
+}
+main .container .box:nth-child(2) .textbox
+{
+    padding-top: 0px;
+    margin-left: -20px;
+}
+
+main .container .box:nth-child(2) .image img
+{
+    width: 100%;
+}
+
+main .container .box:nth-child(3) .textbox h2
+{
+    text-align: center;
+    font-size: 33px;
+    margin-top: 5px;
+}
+main .container .box:nth-child(3) .image
+{
+    display: flex;
+    gap: 85px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main .container .box:nth-child(3) .image img
+{
+    height: 150px;
+}
+figcaption
+{
+    text-align: center;
+}
+@media screen and (max-width: 600px)
+{
+  nav 
+  {
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  nav .logo,
+  nav .search-bar,
+  nav .nav-items
+ {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  nav .logo a
+  {
+    font-size: 20px;
+  }
+  nav .search-bar
+  {
+    order: 1;
+  }
+  nav .nav-items
+  {
+    order: 2;
+  }
+  nav form input[type="text"]
+  {
+      width: 240px;
+      align-items: center;
+  }
+}
